@@ -1,7 +1,6 @@
 import express, { json, type Express } from "express";
 import cors from "cors";
 import apiV1 from "../routes/api/v1/index.js";
-
 export const app: Express = express();
 
 const corsOptions = {
